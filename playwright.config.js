@@ -31,7 +31,8 @@ testDir: '.', // search from project root
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
  reporter: [
   ['html'],
-  ['allure-playwright', { outputFolder: 'allure-results' }]
+  ['allure-playwright', { outputFolder: 'allure-results' },],
+  ['junit',{ outputFolder: 'junit-test-report.xml' },]
 ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
