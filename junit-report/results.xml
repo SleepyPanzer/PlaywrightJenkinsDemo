@@ -1,0 +1,258 @@
+<testsuites id="" name="" tests="10" failures="5" skipped="0" errors="0" time="49.0171">
+<testsuite name="tests\AddItemsFromRecomdations.spec.js" timestamp="2025-08-13T12:34:32.229Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="13.765" errors="0">
+<testcase name="Adding Products From Recommendations" classname="tests\AddItemsFromRecomdations.spec.js" time="13.765">
+</testcase>
+</testsuite>
+<testsuite name="tests\AddProductInCart.spec.js" timestamp="2025-08-13T12:34:32.229Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="30.859" errors="0">
+<testcase name="Adding Product To Cart" classname="tests\AddProductInCart.spec.js" time="30.859">
+<failure message="AddProductInCart.spec.js:6:1 Adding Product To Cart" type="FAILURE">
+<![CDATA[  [Google Chrome] › tests\AddProductInCart.spec.js:6:1 › Adding Product To Cart ────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('div:nth-child(4) > .product-image-wrapper > .single-products > .product-overlay > .overlay-content > .btn')
+        - locator resolved to <a data-product-id="2" class="btn btn-default add-to-cart">…</a>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <h2 class="title text-center">All Products</h2> intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <h2 class="title text-center">All Products</h2> intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        14 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <h2 class="title text-center">All Products</h2> intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+
+
+       at pages\ProductPage.js:59
+
+      57 |
+      58 |   async addSecondProductToCart() {
+    > 59 |     await this.secondAddToCartBtn.click();
+         |                                   ^
+      60 |   }
+      61 |
+      62 |   async goToCart() {
+        at ProductPage.addSecondProductToCart (C:\Users\intern1\Documents\WEbTest\pages\ProductPage.js:59:35)
+        at C:\Users\intern1\Documents\WEbTest\tests\AddProductInCart.spec.js:16:21
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-AddProductInCart-Adding-Product-To-Cart-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\tests-AddProductInCart-Adding-Product-To-Cart-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\tests-AddProductInCart-Adding-Product-To-Cart-Google-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-AddProductInCart-Adding-Product-To-Cart-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-AddProductInCart-Adding-Product-To-Cart-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\tests-AddProductInCart-Adding-Product-To-Cart-Google-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\Addreview.spec.js" timestamp="2025-08-13T12:34:32.229Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="47.19" errors="0">
+<testcase name="Adding Review To A Product" classname="tests\Addreview.spec.js" time="47.19">
+<failure message="Addreview.spec.js:5:1 Adding Review To A Product" type="FAILURE">
+<![CDATA[  [Google Chrome] › tests\Addreview.spec.js:5:1 › Adding Review To A Product ───────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.fill: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('textbox', { name: 'Your Name' })
+        - locator resolved to <input id="name" type="text" required="" placeholder="Your Name"/>
+        - fill("shaheer")
+      - attempting fill action
+        - waiting for element to be visible, enabled and editable
+
+
+       at pages\ProductPage.js:107
+
+      105 |
+      106 |   async submitReview(name, email, review) {
+    > 107 |     await this.nameField.fill(name);
+          |                          ^
+      108 |     await this.emailField.fill(email);
+      109 |     await this.reviewField.fill(review);
+      110 |     await this.submitReviewButton.click();
+        at ProductPage.submitReview (C:\Users\intern1\Documents\WEbTest\pages\ProductPage.js:107:26)
+        at C:\Users\intern1\Documents\WEbTest\tests\Addreview.spec.js:16:21
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\tests-Addreview-Adding-Review-To-A-Product-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\tests-Addreview-Adding-Review-To-A-Product-Google-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-Addreview-Adding-Review-To-A-Product-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\tests-Addreview-Adding-Review-To-A-Product-Google-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\ClickingTestPage.spec.js" timestamp="2025-08-13T12:34:32.229Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="31.181" errors="0">
+<testcase name="Clicking the TestPage" classname="tests\ClickingTestPage.spec.js" time="31.181">
+<failure message="ClickingTestPage.spec.js:3:1 Clicking the TestPage" type="FAILURE">
+<![CDATA[  [Google Chrome] › tests\ClickingTestPage.spec.js:3:1 › Clicking the TestPage ─────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: page.goto: Test timeout of 30000ms exceeded.
+    Call log:
+      - navigating to "https://www.automationexercise.com/", waiting until "load"
+
+
+      2 |
+      3 | test('Clicking the TestPage',async({page})=>{
+    > 4 |     await page.goto('https://www.automationexercise.com/');
+        |                ^
+      5 |     await page.getByRole('link', { name: ' Test Cases' }).click();
+      6 |     await expect(page.getByText('Test Cases Test case management software Below is the list of test Cases for')).toBeVisible();
+      7 |
+        at C:\Users\intern1\Documents\WEbTest\tests\ClickingTestPage.spec.js:4:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-ClickingTestPage-Clicking-the-TestPage-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\tests-ClickingTestPage-Clicking-the-TestPage-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\tests-ClickingTestPage-Clicking-the-TestPage-Google-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-ClickingTestPage-Clicking-the-TestPage-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-ClickingTestPage-Clicking-the-TestPage-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\tests-ClickingTestPage-Clicking-the-TestPage-Google-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\example.spec.js" timestamp="2025-08-13T12:34:32.229Z" hostname="Google Chrome" tests="2" failures="0" skipped="0" time="5.781" errors="0">
+<testcase name="has title" classname="tests\example.spec.js" time="2.806">
+</testcase>
+<testcase name="get started link" classname="tests\example.spec.js" time="2.975">
+</testcase>
+</testsuite>
+<testsuite name="tests\FirstTest.spec.js" timestamp="2025-08-13T12:34:32.229Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="12.723" errors="0">
+<testcase name="Validate Youtube Title" classname="tests\FirstTest.spec.js" time="12.723">
+</testcase>
+</testsuite>
+<testsuite name="tests\RemoveProduct.spec.js" timestamp="2025-08-13T12:34:32.229Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="11.906" errors="0">
+<testcase name="Remove Product from Cart" classname="tests\RemoveProduct.spec.js" time="11.906">
+</testcase>
+</testsuite>
+<testsuite name="tests\SearchProducts.spec.js" timestamp="2025-08-13T12:34:32.229Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="7.774" errors="0">
+<testcase name="Searching Products" classname="tests\SearchProducts.spec.js" time="7.774">
+<failure message="SearchProducts.spec.js:5:1 Searching Products" type="FAILURE">
+<![CDATA[  [Google Chrome] › tests\SearchProducts.spec.js:5:1 › Searching Products ──────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "dress"
+    Received string:    "sleeves top and short - blue & pink"
+
+       at pages\ProductPage.js:79
+
+      77 |     for (let i = 0; i < count; i++) {
+      78 |       const name = await this.productNames.nth(i).textContent();
+    > 79 |       expect(name.toLowerCase()).toContain(text.toLowerCase());
+         |                                  ^
+      80 |     }
+      81 |   }
+      82 |
+        at ProductPage.verifySearchedProductsContain (C:\Users\intern1\Documents\WEbTest\pages\ProductPage.js:79:34)
+        at C:\Users\intern1\Documents\WEbTest\tests\SearchProducts.spec.js:13:3
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-SearchProducts-Searching-Products-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\tests-SearchProducts-Searching-Products-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\tests-SearchProducts-Searching-Products-Google-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-SearchProducts-Searching-Products-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-SearchProducts-Searching-Products-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\tests-SearchProducts-Searching-Products-Google-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\ViewingCategory.spec.js" timestamp="2025-08-13T12:34:32.229Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="7.137" errors="0">
+<testcase name="Viewing Products From The Categories" classname="tests\ViewingCategory.spec.js" time="7.137">
+<failure message="ViewingCategory.spec.js:5:1 Viewing Products From The Categories" type="FAILURE">
+<![CDATA[  [Google Chrome] › tests\ViewingCategory.spec.js:5:1 › Viewing Products From The Categories ───────
+
+    TypeError: homePage.openWomenDressCategory is not a function
+
+       9 |   await homePage.goto();
+      10 |   await homePage.verifyCategoryVisible();
+    > 11 |   await homePage.openWomenDressCategory();
+         |                  ^
+      12 |   await categoryPage.verifyWomenDressProductsVisible();
+      13 | });
+      14 |
+        at C:\Users\intern1\Documents\WEbTest\tests\ViewingCategory.spec.js:11:18
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-ViewingCategory-Viewing-Products-From-The-Categories-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\tests-ViewingCategory-Viewing-Products-From-The-Categories-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\tests-ViewingCategory-Viewing-Products-From-The-Categories-Google-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\tests-ViewingCategory-Viewing-Products-From-The-Categories-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\tests-ViewingCategory-Viewing-Products-From-The-Categories-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\tests-ViewingCategory-Viewing-Products-From-The-Categories-Google-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

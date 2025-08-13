@@ -1,0 +1,56 @@
+Modal handling failed: expect.toContainText: Error: strict mode violation: locator('.modal-content').locator('.text-center') resolved to 2 elements:
+    1) <p class="text-center">Your product has been added to cart.</p> aka getByText('Your product has been added')
+    2) <p class="text-center">…</p> aka getByRole('paragraph').filter({ hasText: 'View Cart' })
+
+Call log:
+  - Expect "toContainText" with timeout 5000ms
+  - waiting for locator('.modal-content').locator('.text-center')
+
+    at ProductPage.addProductToCartByIndex (C:\Users\intern1\Documents\WEbTest\pages\ProductPage.js:140:49)
+    at C:\Users\intern1\Documents\WEbTest\tests\AddProductInCart.spec.js:14:3 {
+  [Symbol(step)]: {
+    stepId: 'expect@15',
+    category: 'expect',
+    apiName: 'expect.toContainText',
+    title: 'toContainText',
+    params: { expected: 'Added!' },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'C:\\Users\\intern1\\Documents\\WEbTest\\pages\\ProductPage.js',
+      line: 140,
+      column: 49,
+      function: 'ProductPage.addProductToCartByIndex'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@15',
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1755067947649,
+    error: {
+      message: "Error: expect.toContainText: Error: strict mode violation: locator('.modal-content').locator('.text-center') resolved to 2 elements:\n" +
+        `    1) <p class="text-center">Your product has been added to cart.</p> aka getByText('Your product has been added')\n` +
+        `    2) <p class="text-center">…</p> aka getByRole('paragraph').filter({ hasText: 'View Cart' })\n` +
+        '\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toContainText" with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('.modal-content').locator('.text-center')\x1B[22m\n",
+      stack: "Error: expect.toContainText: Error: strict mode violation: locator('.modal-content').locator('.text-center') resolved to 2 elements:\n" +
+        `    1) <p class="text-center">Your product has been added to cart.</p> aka getByText('Your product has been added')\n` +
+        `    2) <p class="text-center">…</p> aka getByRole('paragraph').filter({ hasText: 'View Cart' })\n` +
+        '\n' +
+        'Call log:\n' +
+        '\x1B[2m  - Expect "toContainText" with timeout 5000ms\x1B[22m\n' +
+        "\x1B[2m  - waiting for locator('.modal-content').locator('.text-center')\x1B[22m\n" +
+        '\n' +
+        '    at ProductPage.addProductToCartByIndex (C:\\Users\\intern1\\Documents\\WEbTest\\pages\\ProductPage.js:140:49)\n' +
+        '    at C:\\Users\\intern1\\Documents\\WEbTest\\tests\\AddProductInCart.spec.js:14:3',
+      cause: undefined
+    }
+  }
+}

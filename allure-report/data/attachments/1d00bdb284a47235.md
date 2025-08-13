@@ -1,0 +1,210 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: PK
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]: Playwright Tutorial Full Course 2024
+    - button "Clear search query"
+    - button "Search"
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fwatch%253Fv%253D2poXBtifpzA%2526pp%253DygUlIFBsYXl3cmlnaHQgVHV0b3JpYWwgRnVsbCBDb3Vyc2UgMjAyNA%25253D%25253D&hl=en&ec=65620
+- main:
+  - complementary:
+    - img
+    - text: Manage work, your way atlassian.com
+    - link "Learn more This link opens in new tab": Learn more
+    - text: Sponsored
+    - button "My Ad Center":
+      - img
+    - text: • 1 of 2
+    - link "atlassian.com This link opens in new tab": atlassian.com
+    - slider "Seek slider" [disabled]
+    - button "Play (k)":
+      - img
+    - button "Next (SHIFT+n)":
+      - img
+    - button "Mute (m)":
+      - img
+    - slider "Volume"
+    - text: 0:01 / 0:30
+    - button "Autoplay is on"
+    - button "Subtitles/closed captions unavailable":
+      - img
+    - button "Settings":
+      - img
+    - button "Miniplayer (i)":
+      - img
+    - button "Theater mode (t)":
+      - img
+    - button "Full screen (f)":
+      - img
+  - heading "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial" [level=1]
+  - link:
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: 25.4K subscribers
+  - button "Subscribe to Testers Talk.": Subscribe
+  - button "like this video along with 878 other people": "878"
+  - button "Dislike this video"
+  - button "Share"
+  - button "More actions"
+  - text: 96K views 1 year ago
+  - link "#playwright":
+    - /url: /hashtag/playwright
+  - link "#testautomation":
+    - /url: /hashtag/testautomation
+  - link "#testing":
+    - /url: /hashtag/testing
+  - tooltip "tooltip"
+  - text: Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source automatio …
+  - button "...more"
+  - heading "Live chat replay" [level=2]
+  - text: See what others said about this video while it was live.
+  - button "Open panel"
+  - img "Atlassian"
+  - text: Manage work, your way Sponsored · atlassian.com
+  - button "My Ad Center"
+  - button
+  - text: Make An Inquiry Try Now All Products About Us
+  - link:
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CuMISfDucaM3YFpSH8uMPq9q64QbQwpfngAGFspX74BKwkB8QASAAYMvUtAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB0KSpyAOoAwSqBIYDT9COfeOfM9RuPsNaIN7xB2m2ueqpqjYa5-XsqULU6K5ZuNdw6a5TD3HVN-OWxuzytog24xGL-Hj1Ffo8PENnlg-y09vpvHz1M-ZRRcoJY7YoaKlzXe9zhSERjtjdVwzbijp2v2lvtNKJzopktdYre3dZZ9n-Xl6GllH077SknbAbGVSNwNhOveDUrZwM0qb9B2fdvG_XS780i2dhqn_JKSg2Y9GdMnydsXLYIcIldL9FA5ZHktBSn5DoqRsUjwOZDPHNRJhGkXqNdVC0A7v3Yex78c-RokShdO21xmD-e2Rgz_6HQaDG6gLsfRJ-1CvNnAWakW0KPKC3oDge9__cQXoHoIB7qNnsG9p8dpU-lzSP2cHzEZTlZw308ufaN6IA1aZ_sHvpL6KaWmiDVKNHtKwEt7KLDk94Ha--nTVUhVoc8aayW6peWaHgO-VRZi0FuwvdbEd2kLgXByWdQQeZ68-otiz2vAJ3vS5MfRkyw221-1PPPrSyS8J4_b0a20-0BMlpZsyqiAWa286nUKAGVIAHmNvWN5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB4HGG6gH_K-xAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB961sQKoB7_TsQKSCAtZanEzaFpYWXBfa6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWND4udWeh48D8ggfY2EteXQtaG9zdC1wdWItOTYwOTU5Mzg3MTUwMzAyNZoJJ2h0dHBzOi8vd3d3LmF0bGFzc2lhbi5jb20vc29mdHdhcmUvamlyYbEJ8ssue17X0cC5CdoBv_qOfmSYyAkYyAmPAcgJkAHICZgBoQtgVGGQFYKWSboLPQgBEAEYBSABKAEwEEABSAFgAGgAcAKIAQCYAQGiARIKABgAIABYAWAAcAGoAgHYAgKoAQHYAQGAAgGIAgXQCxLaCwsIHxDKio32qAMYAJoNARKqDQJQS8gNAdINjQJodHRwczovL3d3dy5hdGxhc3NpYW4uY29tL2NvbXBhbnk_dXRtX3NvdXJjZT1nZG4mdXRtX21lZGl1bT1wYWlkLWRpc3BsYXkmY2FtcGFpZ249MjE1NTc5MTUwMzQmYWRncm91cD0xNzQyOTU4OTUwMjgmZGV2aWNlPWMmZGV2aWNlbW9kZWw9JnBsYWNlbWVudD0mYWNlaWQ9JmNyZWF0aXZlPTcwODcwNzIyMTE5NyZhZHR5cGU9JmdjbGlkPXtnY2xpZH0mY291bnRyeT0mbmV0d29yaz15dHYmdGFyZ2V0aWQ9JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMTU1NzkxNTAzNLgT____________AYgUA7AUAcAVyYCAQNAVAdgVAZAWAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXvoNrQB-K2Gu6FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIzYa61Z6HjwMVlIN8Bh0rrS5sEAEYASAAEgJ8S_D_BwE&num=1&cid=CAASFeRo8MFEwza5vF1TlidvPlTxv0wyAg&ad_cpn=%5BAD_CPN%5D&sig=AOD64_2p-tqtEJlxa4RXeLWamCep1mAcKA&label=video_dynamic_sitelink_click&ctype=110
+  - link "Learn more":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CwV3SfDucaM3YFpSH8uMPq9q64QbQwpfngAGFspX74BKwkB8QASAAYMvUtAWCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB0KSpyAOoAwSqBIYDT9COfeOfM9RuPsNaIN7xB2m2ueqpqjYa5-XsqULU6K5ZuNdw6a5TD3HVN-OWxuzytog24xGL-Hj1Ffo8PENnlg-y09vpvHz1M-ZRRcoJY7YoaKlzXe9zhSERjtjdVwzbijp2v2lvtNKJzopktdYre3dZZ9n-Xl6GllH077SknbAbGVSNwNhOveDUrZwM0qb9B2fdvG_XS780i2dhqn_JKSg2Y9GdMnydsXLYIcIldL9FA5ZHktBSn5DoqRsUjwOZDPHNRJhGkXqNdVC0A7v3Yex78c-RokShdO21xmD-e2Rgz_6HQaDG6gLsfRJ-1CvNnAWakW0KPKC3oDge9__cQXoHoIB7qNnsG9p8dpU-lzSP2cHzEZTlZw308ufaN6IA1aZ_sHvpL6KaWmiDVKNHtKwEt7KLDk94Ha--nTVUhVoc8aayW6peWaHgO-VRZi0FuwvdbEd2kLgXByWdQQeZ68-otiz2vAJ3vS5MfRkyw221-1PPPrSyS8J4_b0a20-0BMlpZsyqiAWa286nUKAGVIAHmNvWN5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHgqqxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7CbsQKoB66xsQKoB-a8sQKoB8q6sQKoB_2ysQKoB_e4sQKoB_i4sQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB4HGG6gH_K-xAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtZanEzaFpYWXBfa6gIAdIIKQiAQRABGF4yAoICOgyAQoDAgICAgICAAipI2aDSNVAUWND4udWeh48D8ggfY2EteXQtaG9zdC1wdWItOTYwOTU5Mzg3MTUwMzAyNZoJJ2h0dHBzOi8vd3d3LmF0bGFzc2lhbi5jb20vc29mdHdhcmUvamlyYbEJZneDZyG-Iz_ICRjICY8ByAmQAcgJmAGYCwGhC2BUYZAVgpZJugs9CAEQARgFIAEoATAQQAFIAWAAaABwAogBAJgBAaIBEgoAGAAgAFgBYABwAagCAdgCAqgBAdgBAYACAYgCBdALEtoMJQoKEMC6wLD_1PagXBICAQMaDRia286nUCD0l-GmiQVAAUoCEB-aDQESqg0CUEvIDQHSDckEaHR0cHM6Ly93d3cuYXRsYXNzaWFuLmNvbS9zb2Z0d2FyZS9qaXJhP3V0bV9zb3VyY2U9eW91dHViZSZ1dG1fbWVkaXVtPXBhaWQtZGlzcGxheSZ1dG1fY2FtcGFpZ249UDpqaXJhfE86cHBtfFY6eW91dHViZXxHOnJvd3xMOmVufEY6YXdhcmV8RDpkZXNrdG9wfFQ6cHJvc3BlY3RpbmcmdXRtX2NvbnRlbnQ9UDpqaXJhfE86cHBtfFY6eW91dHViZXxHOnJvd3xMOmVufEY6YXdhcmV8VDpwcm9zcGVjdGluZ3xBOnZpZGVvfEQ6ZGVza3RvcHxVOmN1c3RvbS1pbnRlbnQtcHJvZ3JhbS1tYW5hZ2Vyc192aWRlby1jb3JlLXByb2ptZ210LXByb2ptZ210LW5lcmlkaWEtdmlkZW8tMzAtcGdtLW1hZGVhc3kmdXRtX3NvdXJjZT1nZG4mdXRtX21lZGl1bT1wYWlkLWRpc3BsYXkmY2FtcGFpZ249MjE1NTc5MTUwMzQmYWRncm91cD0xNzQyOTU4OTUwMjgmZGV2aWNlPWMmZGV2aWNlbW9kZWw9JnBsYWNlbWVudD15b3V0dWJlLmNvbSZhY2VpZD0mY3JlYXRpdmU9NzA4NzA3MjIxMTk3JmFkdHlwZT0mZ2NsaWQ9e2djbGlkfSZjb3VudHJ5PSZuZXR3b3JrPXl0diZ0YXJnZXRpZD0mZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIxNTU3OTE1MDM0uBP___________8BiBQDsBQBwBXJgIBA0BUB2BUBkBYBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRe-g2tAH4rYa7oXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIzYa61Z6HjwMVlIN8Bh0rrS5sEAEYASAAEgJ8S_D_BwE&num=1&cid=CAASFeRo8MFEwza5vF1TlidvPlTxv0wyAg&ad_cpn=%5BAD_CPN%5D&sig=AOD64_38vQribo1WlcGeX6ICZf1YUfD2kw&label=video_click_to_advertiser_site&ctype=110&ms=%5BCLICK_MS%5D
+  - iframe
+  - button "Show chat replay"
+  - heading "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [level=3]:
+    - link "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes":
+      - /url: /watch?v=lM-lqPun9P8
+      - text: "#2 Playwright API Testing Tutorial Crash Course 2024"
+  - text: Testers Talk 31K views 1 year ago
+  - button "More actions"
+  - heading "Playwright Automation Tutorial☑️" [level=3]:
+    - link "Playwright Automation Tutorial☑️":
+      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+  - heading "Playwright Automation using TypeScript" [level=3]:
+    - link "Playwright Automation using TypeScript":
+      - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHg54NFHhVDcvO7vet8v4JK
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THHg54NFHhVDcvO7vet8v4JK
+  - heading "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [level=3]:
+    - link "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes":
+      - /url: /watch?v=pq20Gd4LXeI&pp=0gcJCa0JAYcqIYzv
+      - text: Playwright Automation Tutorial for Beginners from Scratch
+  - text: Mukesh otwani 111K views 11 months ago
+  - button "More actions"
+  - 'heading "Cypress Course: Complete Beginner Course | Cypress Full Course 4 hours, 37 minutes" [level=3]':
+    - 'link "Cypress Course: Complete Beginner Course | Cypress Full Course 4 hours, 37 minutes"':
+      - /url: /watch?v=yhYirC9XqUk
+      - text: "Cypress Course: Complete Beginner Course | Cypress Full Course"
+  - text: SQA World 967 views 3 months ago
+  - button "More actions"
+  - heading "Playwright by Testers Talk☑️" [level=3]:
+    - link "Playwright by Testers Talk☑️":
+      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - heading "Playwright API Testing by Testers Talk☑️" [level=3]:
+    - link "Playwright API Testing by Testers Talk☑️":
+      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+  - heading "Introduction to Playwright for End-to-End Testing with Debbie O'Brien | JS Drops 1 hour, 20 minutes" [level=3]:
+    - link "Introduction to Playwright for End-to-End Testing with Debbie O'Brien | JS Drops 1 hour, 20 minutes":
+      - /url: /watch?v=lCb9JoZFpHI
+      - text: Introduction to Playwright for End-to-End Testing with Debbie O'Brien | JS Drops
+  - text: This Dot Media 33K views 2 years ago
+  - button "More actions"
+  - heading "Playwright Course 2024 - UI + API + CI CD Pipeline + Reports☑️" [level=3]:
+    - link "Playwright Course 2024 - UI + API + CI CD Pipeline + Reports☑️":
+      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHhiw_bRPPfgue7a1lED1IU
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THHhiw_bRPPfgue7a1lED1IU
+  - heading "Advanced Playwright Techniques for Flawless Testing - Debbie O'Brien - 50 minutes" [level=3]:
+    - link "Advanced Playwright Techniques for Flawless Testing - Debbie O'Brien - 50 minutes":
+      - /url: /watch?v=ybYK9jM0lco
+      - text: Advanced Playwright Techniques for Flawless Testing - Debbie O'Brien -
+  - text: NDC Conferences 6.7K views 8 months ago
+  - button "More actions"
+  - heading "The Real face of Raftar | Why Muazzam Shah Quit? | @raftartv Exposed 22 minutes" [level=3]:
+    - link "The Real face of Raftar | Why Muazzam Shah Quit? | @raftartv Exposed 22 minutes":
+      - /url: /watch?v=X1iATOLKo7w
+      - text: The Real face of Raftar | Why Muazzam Shah Quit? | @raftartv Exposed
+  - text: Thynk 70K views 15 hours ago New
+  - button "More actions"
+  - heading "Playwright API Testing Tutorial" [level=3]:
+    - link "Playwright API Testing Tutorial":
+      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+  - heading "West Indies v Pakistan | 3rd ODI | Full Match Highlights | tapmad 24 minutes" [level=3]:
+    - link "West Indies v Pakistan | 3rd ODI | Full Match Highlights | tapmad 24 minutes":
+      - /url: /watch?v=oi_KpSXAsEY
+      - text: West Indies v Pakistan | 3rd ODI | Full Match Highlights | tapmad
+  - text: tapmad 375K views 10 hours ago New
+  - button "More actions"
+  - 'heading "Playwright Java Tutorial: Learn To Use Playwright With Java (In 5 Hours)! 5 hours, 2 minutes" [level=3]':
+    - 'link "Playwright Java Tutorial: Learn To Use Playwright With Java (In 5 Hours)! 5 hours, 2 minutes"':
+      - /url: /watch?v=MOuzZJJ6cLI
+      - text: "Playwright Java Tutorial: Learn To Use Playwright With Java (In 5 Hours)!"
+  - text: LambdaTest 40K views 1 year ago
+  - button "More actions"
+  - heading "Playwright Java | Part 1 | Getting Started 1 hour, 3 minutes" [level=3]:
+    - link "Playwright Java | Part 1 | Getting Started 1 hour, 3 minutes":
+      - /url: /watch?v=o_COPMFEa6Q
+      - text: Playwright Java | Part 1 | Getting Started
+  - text: Automation Step by Step 3K views 1 month ago
+  - button "More actions"
+  - 'heading "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes" [level=3]':
+    - 'link "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes"':
+      - /url: /watch?v=wawbt1cATsk
+      - text: "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours]"
+  - text: LambdaTest 261K views 2 years ago
+  - button "More actions"
+  - heading "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes" [level=3]:
+    - link "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial 8 hours, 55 minutes":
+      - /url: /watch?v=788GvvcfwTY
+      - text: "#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial"
+  - text: Testers Talk 56K views 7 months ago
+  - button "More actions"
+  - heading "The HARSH Truth About Software Testing Jobs in 2025 🔥 SDET, QA Automation & Complete Roadmap! 1 hour" [level=3]:
+    - link "The HARSH Truth About Software Testing Jobs in 2025 🔥 SDET, QA Automation & Complete Roadmap! 1 hour":
+      - /url: /watch?v=S23SvV3XGU4&pp=0gcJCa0JAYcqIYzv
+      - text: The HARSH Truth About Software Testing Jobs in 2025 🔥 SDET, QA Automation & Complete Roadmap!
+  - text: Technical Suneja 144K views 6 months ago
+  - button "More actions"
+```
