@@ -1,0 +1,46 @@
+# Page snapshot
+
+```yaml
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner
+- main:
+  - heading "Sign in to GitHub" [level=1]
+  - button "Dismiss this message"
+  - alert: Incorrect username or password.
+  - text: Username or email address
+  - textbox "Username or email address": 123dja
+  - text: Password
+  - textbox "Password"
+  - link "Forgot password?":
+    - /url: /password_reset
+  - button "Sign in"
+  - text: or
+  - button "Continue with Google":
+    - img
+    - text: Continue with Google
+  - paragraph:
+    - text: New to GitHub?
+    - link "Create an account":
+      - /url: /signup?return_to=https%3A%2F%2Fgithub.com%2FBakkappaN&source=login
+  - paragraph:
+    - button "Sign in with a passkey"
+- contentinfo:
+  - list:
+    - listitem:
+      - link "Terms":
+        - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+    - listitem:
+      - link "Privacy":
+        - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+    - listitem:
+      - link "Docs":
+        - /url: https://docs.github.com
+    - listitem:
+      - link "Contact GitHub Support":
+        - /url: https://support.github.com
+    - listitem:
+      - button "Manage cookies"
+    - listitem:
+      - button "Do not share my personal information"
+```

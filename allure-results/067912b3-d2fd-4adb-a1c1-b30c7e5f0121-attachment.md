@@ -1,0 +1,168 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - button "Guide"
+  - link "YouTube Home":
+    - /url: /
+  - text: PK
+  - button "Skip navigation"
+  - search:
+    - combobox "Search" [expanded]: Playwright Tutorial Full Course 2024
+    - button "Clear search query"
+    - button "Search"
+  - button "Search with your voice"
+  - tooltip "tooltip"
+  - button "Settings"
+  - link "Sign in":
+    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fwatch%253Fv%253D2poXBtifpzA%2526pp%253DygUlIFBsYXl3cmlnaHQgVHV0b3JpYWwgRnVsbCBDb3Vyc2UgMjAyNA%25253D%25253D&hl=en&ec=65620
+- main:
+  - complementary:
+    - img
+    - text: ZYN Pakistan zyn.com
+    - link "Shop now This link opens in new tab": Shop now
+    - text: Sponsored
+    - button "My Ad Center":
+      - img
+    - text: • 1 of 2
+    - link "zyn.com This link opens in new tab": zyn.com
+    - slider "Seek slider" [disabled]
+    - button "Play (k)":
+      - img
+    - button "Next (SHIFT+n)":
+      - img
+    - button "Mute (m)":
+      - img
+    - slider "Volume"
+    - text: 0:00 / 0:06
+    - button "Autoplay is on"
+    - button "Subtitles/closed captions unavailable":
+      - img
+    - button "Settings":
+      - img
+    - button "Theater mode (t)":
+      - img
+    - button "Full screen (f)":
+      - img
+  - heading "#1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial" [level=1]
+  - link:
+    - /url: /@testerstalk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - text: 25.4K subscribers
+  - button "Subscribe to Testers Talk.": Subscribe
+  - button "like this video along with 878 other people": "878"
+  - button "Dislike this video"
+  - button "Share"
+  - button "More actions"
+  - text: 96K views 1 year ago
+  - link "#playwright":
+    - /url: /hashtag/playwright
+  - link "#testautomation":
+    - /url: /hashtag/testautomation
+  - link "#testing":
+    - /url: /hashtag/testing
+  - tooltip "tooltip"
+  - text: Playwright enables reliable end-to-end testing for modern web apps. Playwright is an open-source automatio …
+  - button "...more"
+  - heading "Live chat replay" [level=2]
+  - text: See what others said about this video while it was live.
+  - button "Open panel"
+  - iframe
+  - button "Show chat replay"
+  - button "ZYN Pakistan"
+  - text: ZYN Pakistan Sponsored · zyn.com
+  - link "Shop now":
+    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CO_iioDOcaMeQD4qrhcIPqOTEGcja7oSBAeKdj-XUFLCQHxABIABgy9S0BYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGZgaTmKqgDBKoEpwNP0LYdrdnHiLcLZGjerLs8AJbyPETfEsVAc1li95x6gXU2o0MCnvVsDN-0wdEPCX6JHzBL8aMiG5InPdgj6ipGHPFNomI9EfkNzsu7gTuWNIDYAWb0XDz9DYf8SFtue6cKxH5mFdtbQooYegjV_a-VjsxW2SGlY1dhjpzocLqCm6TAtPR2aBbHCHnpLaDdeltnrJ6N3lRIugaSvu1d7FCalSu9GB1iZo30064mOg-Uj1BuKogm4vryQOuoYISCWE3PcbjlsBTrnU8cDJZ-1c0sO0MonQ38s6PGm30nnoMvtxFy8L-y8RkO9uQh1VFDK-uJTjTVBgUi52LZjIrEqCl-YsoRQT4MZ8Tzzi8wXjghfUWiAfrrIZg-kBzGOYf7BJ4rYD5Nk0uau-6fMoYmbbH4rbwpaO3wRzi4f9JTqXwupmT-IMYeA0WsAfN7PWc8ykRMM2na3F_Cd6Jk-7-2n2HiHuF7VY8tsPPiGdqfNXzwzd2KqRmfMdp9TT_nioG9vE_J3dWaK7Gi00Vz_WkisYaIXGdrC3e2aEINSn_ZKGIrwdFlGBlsTE6IBdu_hpRVwAWJAaAGU4AHmbn0xQWQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB4KqsQKoB4QIqAem1LECqAeo0huoB7YHqAewm7ECqAeusbECqAfmvLECqAfKurECqAf9srECqAf3uLECqAf4uLECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAeBxhuoB_yvsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC1h5WEtSZWs0Q2xB0ggpCIBBEAEYXjICggI6DIBCgMCAgICAgIACKkjZoNI1UBRY8NH_lZeHjwPyCB9jYS15dC1ob3N0LXB1Yi05NjA5NTkzODcxNTAzMDI1mgkjaHR0cHM6Ly93d3cuenluLmNvbS9way9lbi9ob21lLmh0bWyxCZs7007j7i_oyAlyyAmxAcgJwgGhC2BUYZAVgpZJugs9CAEQARgGIAMoATAQQAFIAWAAaABwAogBAJgBAaIBEgoAGAAgAFgBYABwAagCAdgCAqgBAdgBA4ACAYgCB9ALE-ALAdoMJQoKEND9ycDq89SdYRICAQMaDRjbv4aUVSCD7uCdrAVAAUoCEB-aDQETqg0CUEvIDQHSDZ4EaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL041NzE2MDEuMjc5MzgySU5WSVRFTUVESUFJTkMuRE9OL0IzMzg2Mzc1OS40MjYxMTczNTg7ZGNfdHJrX2FpZD02MTkxNDcwMTQ7ZGNfdHJrX2NpZD0yMzkwODIzOTg7ZGNfZGJtX3Rva2VuPUFPamVMTkVBQUFBOENqUUtEQWdBRlFBQUFBQWRBQUFBQUJJTUNBQVZBQUFBQUIwQUFBQUFJaFFJMjctR2xGV29BdVc3b1A0RnNBS0pfYmJuQTBBN0VKemhvdGdGZVFRWl9IWkFKdnkyTGRlWENIcDdCQT09O2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjQ0FRcS1IN2hJdHlGS21mYldrMTB2Zm8za3ZPaF9YV0dEdFhUTURvamM2UHp5RTN3N3pPaDd1WDFObHpTd3ZzdzlzbFlUMTdzTGVIV1Rxenc7ZGNfcHViaWQ9Mj9odHRwczovL3d3dy56eW4uY29tL3BrL2VuL2hvbWUuaHRtbD9nYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjI4NTkwNjMyNTmwE_q98h24E____________wGwFAHAFcmAgEDQFQHYFQGQFgGYFgGoFgGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRecn6fKQACjdboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIx-D_lZeHjwMVilVBAh0oMjEDEAEYASAAEgKhZ_D_BwE&num=1&cid=CAASFeRooutX7hmOpSM7wadpW_8LTcQOSw&sig=AOD64_0IK304i_PYu1ydEW6Jy01g0MPtlQ&client=ca-pub-6219811747049371&ctype=137&ms=%5BCLICK_MS%5D
+  - button "My Ad Center"
+  - heading "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes" [level=3]:
+    - link "#2 Playwright API Testing Tutorial Crash Course 2024 1 hour, 59 minutes":
+      - /url: /watch?v=lM-lqPun9P8
+      - text: "#2 Playwright API Testing Tutorial Crash Course 2024"
+  - text: Testers Talk 31K views 1 year ago
+  - button "More actions"
+  - heading "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes" [level=3]:
+    - link "Playwright Automation Tutorial for Beginners from Scratch 8 hours, 17 minutes":
+      - /url: /watch?v=pq20Gd4LXeI
+      - text: Playwright Automation Tutorial for Beginners from Scratch
+  - text: Mukesh otwani 111K views 11 months ago
+  - button "More actions"
+  - heading "Playwright with Javascript tutorials☑️" [level=3]:
+    - link "Playwright with Javascript tutorials☑️":
+      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEc7eZ9twT1_w_jiPMFC-QD
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEc7eZ9twT1_w_jiPMFC-QD
+  - 'heading "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes" [level=3]':
+    - 'link "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours] 5 hours, 41 minutes"':
+      - /url: /watch?v=wawbt1cATsk
+      - text: "Playwright with TypeScript : Learn Playwright Automation Tutorial from Scratch [6 Hours]"
+  - text: LambdaTest 261K views 2 years ago
+  - button "More actions"
+  - heading "Introduction to Playwright for End-to-End Testing with Debbie O'Brien | JS Drops 1 hour, 20 minutes" [level=3]:
+    - link "Introduction to Playwright for End-to-End Testing with Debbie O'Brien | JS Drops 1 hour, 20 minutes":
+      - /url: /watch?v=lCb9JoZFpHI
+      - text: Introduction to Playwright for End-to-End Testing with Debbie O'Brien | JS Drops
+  - text: This Dot Media 33K views 2 years ago
+  - button "More actions"
+  - heading "Playwright Automation Tutorial☑️" [level=3]:
+    - link "Playwright Automation Tutorial☑️":
+      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THHmgUrd61MtuvgpKPvoQzXb
+  - heading "How We Use NotebookLM to Build High-Performance Ad Campaigns 😉 (Meta and Google) 6 minutes, 10 seconds" [level=3]:
+    - link "How We Use NotebookLM to Build High-Performance Ad Campaigns 😉 (Meta and Google) 6 minutes, 10 seconds":
+      - /url: /watch?v=RK0zFnssJoU
+      - text: How We Use NotebookLM to Build High-Performance Ad Campaigns 😉 (Meta and Google)
+  - text: Profit Pulse Media 4 views 14 hours ago New
+  - button "More actions"
+  - heading "Playwright by Testers Talk☑️" [level=3]:
+    - link "Playwright by Testers Talk☑️":
+      - /url: /watch?v=2poXBtifpzA&list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+  - heading "Playwright API Testing by Testers Talk☑️" [level=3]:
+    - link "Playwright API Testing by Testers Talk☑️":
+      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THF3rnYZ63qkbHwMTXiG67vz
+  - 'heading "Playwright Java Tutorial: Learn To Use Playwright With Java (In 5 Hours)! 5 hours, 2 minutes" [level=3]':
+    - 'link "Playwright Java Tutorial: Learn To Use Playwright With Java (In 5 Hours)! 5 hours, 2 minutes"':
+      - /url: /watch?v=MOuzZJJ6cLI
+      - text: "Playwright Java Tutorial: Learn To Use Playwright With Java (In 5 Hours)!"
+  - text: LambdaTest 40K views 1 year ago
+  - button "More actions"
+  - heading "Playwright API Testing Tutorial" [level=3]:
+    - link "Playwright API Testing Tutorial":
+      - /url: /watch?v=lM-lqPun9P8&list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THEvZ6mygfkOwSFncrVtd8Hk
+  - heading "Playwright Automation using TypeScript" [level=3]:
+    - link "Playwright Automation using TypeScript":
+      - /url: /watch?v=788GvvcfwTY&list=PLUeDIlio4THHg54NFHhVDcvO7vet8v4JK
+  - link "Testers Talk":
+    - /url: /@testerstalk
+  - link "Playlist":
+    - /url: /@testerstalk
+  - link "View full playlist":
+    - /url: /playlist?list=PLUeDIlio4THHg54NFHhVDcvO7vet8v4JK
+```
