@@ -52,8 +52,9 @@ export class ProductPage {
 }
 
   async continueShopping() {
-    await this.continueShoppingBtn.click();
-  }
+  await this.continueShoppingBtn.waitFor({ state: 'visible', timeout: 15000 });
+  await this.continueShoppingBtn.click({ force: true });
+}
 
   async addSecondProductToCart() {
     await this.secondAddToCartBtn.click();

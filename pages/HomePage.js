@@ -74,4 +74,8 @@ async addFirstProductToCart() {
   async goToCart() {
     await this.cartButton.click();
   }
+  async openWomenDressCategory() {
+  await this.womenCategory.click();
+  await this.subCategoryDress.click();
+}
 }
