@@ -1,10 +1,10 @@
-<testsuites id="" name="" tests="10" failures="3" skipped="0" errors="0" time="26.075393">
-<testsuite name="tests\AddItemsFromRecomdations.spec.js" timestamp="2025-08-15T05:46:26.554Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="5.868" errors="0">
-<testcase name="Adding Products From Recommendations" classname="tests\AddItemsFromRecomdations.spec.js" time="5.868">
+<testsuites id="" name="" tests="10" failures="3" skipped="0" errors="0" time="24.778149">
+<testsuite name="tests\AddItemsFromRecomdations.spec.js" timestamp="2025-08-15T05:55:20.912Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="5.71" errors="0">
+<testcase name="Adding Products From Recommendations" classname="tests\AddItemsFromRecomdations.spec.js" time="5.71">
 </testcase>
 </testsuite>
-<testsuite name="tests\AddProductInCart.spec.js" timestamp="2025-08-15T05:46:26.554Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="23.128" errors="0">
-<testcase name="Adding Product To Cart" classname="tests\AddProductInCart.spec.js" time="23.128">
+<testsuite name="tests\AddProductInCart.spec.js" timestamp="2025-08-15T05:55:20.912Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="20.543" errors="0">
+<testcase name="Adding Product To Cart" classname="tests\AddProductInCart.spec.js" time="20.543">
 <failure message="AddProductInCart.spec.js:6:1 Adding Product To Cart" type="FAILURE">
 <![CDATA[  [Google Chrome] › tests\AddProductInCart.spec.js:6:1 › Adding Product To Cart ────────────────────
 
@@ -47,31 +47,37 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests\Addreview.spec.js" timestamp="2025-08-15T05:46:26.554Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="6.911" errors="0">
-<testcase name="Adding Review To A Product" classname="tests\Addreview.spec.js" time="6.911">
+<testsuite name="tests\Addreview.spec.js" timestamp="2025-08-15T05:55:20.912Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="7.42" errors="0">
+<testcase name="Adding Review To A Product" classname="tests\Addreview.spec.js" time="7.42">
 </testcase>
 </testsuite>
-<testsuite name="tests\ClickingTestPage.spec.js" timestamp="2025-08-15T05:46:26.554Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="8.444" errors="0">
-<testcase name="Click Test Cases link and verify page" classname="tests\ClickingTestPage.spec.js" time="8.444">
+<testsuite name="tests\ClickingTestPage.spec.js" timestamp="2025-08-15T05:55:20.912Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="13.732" errors="0">
+<testcase name="Click Test Cases link and verify page" classname="tests\ClickingTestPage.spec.js" time="13.732">
 <failure message="ClickingTestPage.spec.js:3:1 Click Test Cases link and verify page" type="FAILURE">
 <![CDATA[  [Google Chrome] › tests\ClickingTestPage.spec.js:3:1 › Click Test Cases link and verify page ─────
 
-    Error: locator.click: Error: strict mode violation: getByRole('link', { name: /Test Cases/i }) resolved to 2 elements:
+    Error: expect.toBeVisible: Error: strict mode violation: getByText(/Test Cases/i) resolved to 7 elements:
         1) <a href="/test_cases">…</a> aka getByRole('link', { name: ' Test Cases' })
-        2) <a href="/test_cases" class="test_cases_list">…</a> aka getByRole('link', { name: 'Test Cases', exact: true })
+        2) <b>Test Cases</b> aka locator('b')
+        3) <span>Below is the list of test Cases for you to practi…</span> aka getByText('Below is the list of test')
+        4) <u>Test Case 7: Verify Test Cases Page</u> aka getByRole('link', { name: 'Test Case 7: Verify Test' })
+        5) <li class="list-group-item">4. Click on 'Test Cases' button</li> aka getByText('Click on \'Test Cases\' button')
+        6) <li class="list-group-item">5. Verify user is navigated to test cases page su…</li> aka getByText('Verify user is navigated to test cases page successfully')
+        7) <li class="list-group-item">You can explore more test cases in the website an…</li> aka getByText('You can explore more test')
 
     Call log:
-      - waiting for getByRole('link', { name: /Test Cases/i })
+      - Expect "toBeVisible" with timeout 10000ms
+      - waiting for getByText(/Test Cases/i)
 
 
-      4 |   await page.goto('https://www.automationexercise.com/');
-      5 |
-    > 6 |   await page.getByRole('link', { name: /Test Cases/i }).click();
-        |                                                         ^
-      7 |
-      8 |   await page.waitForLoadState('networkidle');
-      9 |
-        at C:\Users\intern1\Documents\WEbTest\tests\ClickingTestPage.spec.js:6:57
+      11 |   await page.waitForLoadState('networkidle');
+      12 |
+    > 13 |   await expect(page.getByText(/Test Cases/i)).toBeVisible({ timeout: 10000 });
+         |                                               ^
+      14 |
+      15 |   await expect(page).toHaveURL(/test_cases/i);
+      16 | });
+        at C:\Users\intern1\Documents\WEbTest\tests\ClickingTestPage.spec.js:13:47
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
     test-results\tests-ClickingTestPage-Click-Test-Cases-link-and-verify-page-Google-Chrome\test-failed-1.png
@@ -95,22 +101,22 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests\example.spec.js" timestamp="2025-08-15T05:46:26.554Z" hostname="Google Chrome" tests="2" failures="0" skipped="0" time="4.923" errors="0">
-<testcase name="has title" classname="tests\example.spec.js" time="2.074">
+<testsuite name="tests\example.spec.js" timestamp="2025-08-15T05:55:20.912Z" hostname="Google Chrome" tests="2" failures="0" skipped="0" time="8.971" errors="0">
+<testcase name="has title" classname="tests\example.spec.js" time="2.855">
 </testcase>
-<testcase name="get started link" classname="tests\example.spec.js" time="2.849">
-</testcase>
-</testsuite>
-<testsuite name="tests\FirstTest.spec.js" timestamp="2025-08-15T05:46:26.554Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="13.461" errors="0">
-<testcase name="Validate Youtube Title" classname="tests\FirstTest.spec.js" time="13.461">
+<testcase name="get started link" classname="tests\example.spec.js" time="6.116">
 </testcase>
 </testsuite>
-<testsuite name="tests\RemoveProduct.spec.js" timestamp="2025-08-15T05:46:26.554Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="7.58" errors="0">
-<testcase name="Remove Product from Cart" classname="tests\RemoveProduct.spec.js" time="7.58">
+<testsuite name="tests\FirstTest.spec.js" timestamp="2025-08-15T05:55:20.912Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="14.3" errors="0">
+<testcase name="Validate Youtube Title" classname="tests\FirstTest.spec.js" time="14.3">
 </testcase>
 </testsuite>
-<testsuite name="tests\SearchProducts.spec.js" timestamp="2025-08-15T05:46:26.554Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="5.514" errors="0">
-<testcase name="Searching Products" classname="tests\SearchProducts.spec.js" time="5.514">
+<testsuite name="tests\RemoveProduct.spec.js" timestamp="2025-08-15T05:55:20.912Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="4.989" errors="0">
+<testcase name="Remove Product from Cart" classname="tests\RemoveProduct.spec.js" time="4.989">
+</testcase>
+</testsuite>
+<testsuite name="tests\SearchProducts.spec.js" timestamp="2025-08-15T05:55:20.912Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="5.387" errors="0">
+<testcase name="Searching Products" classname="tests\SearchProducts.spec.js" time="5.387">
 <failure message="SearchProducts.spec.js:5:1 Searching Products" type="FAILURE">
 <![CDATA[  [Google Chrome] › tests\SearchProducts.spec.js:5:1 › Searching Products ──────────────────────────
 
@@ -153,8 +159,8 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="tests\ViewingCategory.spec.js" timestamp="2025-08-15T05:46:26.554Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="5.072" errors="0">
-<testcase name="Viewing Products From The Categories" classname="tests\ViewingCategory.spec.js" time="5.072">
+<testsuite name="tests\ViewingCategory.spec.js" timestamp="2025-08-15T05:55:20.912Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="2.938" errors="0">
+<testcase name="Viewing Products From The Categories" classname="tests\ViewingCategory.spec.js" time="2.938">
 </testcase>
 </testsuite>
 </testsuites>
