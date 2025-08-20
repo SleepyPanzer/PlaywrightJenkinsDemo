@@ -4,13 +4,14 @@ test('Click Test Cases link and verify page', async ({ page }) => {
   // Go to home page
   await page.goto('https://www.automationexercise.com/');
 
-  await page.waitForSelector('a[href="/test_cases"]', { timeout: 10000 });
-
-  await page.click('a[href="/test_cases"]');
-
+  // Click "Test Cases" link
+await page.getByRole('link', { name: ' Test Cases' }).click();
+  // Wait for navigation to finish
   await page.waitForLoadState('networkidle');
 
-  await expect(page.getByText(/Test Cases/i)).toBeVisible({ timeout: 10000 });
+  // Verify page heading
+  await expect(page.locator('h2:has-text("Test Cases")')).toBeVisible();
 
-  await expect(page).toHaveURL(/test_cases/i);
+  // Verify URL
+  await expect(page).toHaveURL(/test_cases/);
 });

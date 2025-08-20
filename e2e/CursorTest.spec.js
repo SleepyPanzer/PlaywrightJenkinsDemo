@@ -9,5 +9,5 @@ test('test', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Password' }).fill('12345');
   await page.getByRole('button', { name: 'Sign in', exact: true }).click();
     await expect(page.getByRole('button', { name: 'Sign in', exact: true })).toBeVisible();
-  await expect(page.getByRole('alert')).toContainText('Incorrect username or passwordzzz.');
+  await expect(page.getByRole('alert')).toContainText('Incorrect username or password.');
 });
